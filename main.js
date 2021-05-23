@@ -49,18 +49,11 @@ const sr = ScrollReveal({
     reset: true
 })
 
-/*SCROLL HOME*/
 sr.reveal('.Intro', {})
-sr.reveal('Descript', {delay: 200})
-sr.reveal('.heading', {origin:'right', delay: 400})
+sr.reveal('.heading', {origin:'right',interval: 50, delay: 400})
 sr.reveal('.hideme', {origin:'bottom', delay: 400})
-
-/*SCROLL ABOUT*/
-sr.reveal('.London born', {origin:'right', delay: 500})
-sr.reveal('.London des', {origin:'bottom', delay: 300})
-sr.reveal('.about__profession', {delay: 400})
-sr.reveal('.about__text', {delay: 500})
-sr.reveal('.about__social-icon', {delay: 600, interval: 200})
+sr.reveal('.cd-btn', {delay: 500})
+sr.reveal('.endline', {delay: 600, interval: 200})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
