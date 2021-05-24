@@ -49,8 +49,9 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.Intro', {delay: 100})
-sr.reveal('.home__img', {delay: 350})
+sr.reveal('.Intro', {origin:'bottom', delay: 100, interval: 100})
+sr.reveal('.home__img', {origin:'bottom', delay: 300})
+sr.reveal('.Descript', {origin:'bottom', delay: 200})
 sr.reveal('.heading', {origin:'right', delay: 300})
 sr.reveal('.hideme', {origin:'bottom', delay: 300})
 sr.reveal('.cd-btn', {delay: 500})
