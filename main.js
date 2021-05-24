@@ -55,15 +55,9 @@ sr.reveal('.Descript', {origin:'bottom', delay: 200})
 sr.reveal('.heading', {origin:'right', delay: 300})
 sr.reveal('.hideme', {origin:'bottom', delay: 300})
 sr.reveal('.cd-btn', {delay: 500})
-sr.reveal('.endline', {delay: 500, interval: 100})
-
-/*SCROLL SKILLS*/
-
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
-sr.reveal('.skills__img', {delay: 400})
-
-/*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.img-fluid', {origin:'left', delay: 400})
+sr.reveal('.endline', {delay: 500, interval: 100})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
