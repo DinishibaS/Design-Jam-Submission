@@ -49,14 +49,15 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.Intro', {})
+sr.reveal('.Intro', {delay: 100})
+sr.reveal('.home__img', {delay: 350})
 sr.reveal('.heading', {origin:'right', delay: 300})
 sr.reveal('.hideme', {origin:'bottom', delay: 300})
 sr.reveal('.cd-btn', {delay: 500})
 sr.reveal('.endline', {delay: 500, interval: 100})
 
 /*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle', {})
+
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 400})
 
