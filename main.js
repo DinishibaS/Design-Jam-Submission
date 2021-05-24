@@ -9,13 +9,13 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-showMenu('nav-toggle','nav-menu')
+showMenu('nav-toggle','left-bar-section')
 
 /*===== REMOVE MENU MOBILE =====*/
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.link-section')
 
 function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
+    const navMenu = document.getElementById('left-bar-section')
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
@@ -34,9 +34,9 @@ function scrollActive(){
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+            document.querySelector('.left-bar-section a[href*=' + sectionId + ']').classList.add('active')
         }else{
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
+            document.querySelector('.left-bar-section a[href*=' + sectionId + ']').classList.remove('active')
         }
     })
 }
