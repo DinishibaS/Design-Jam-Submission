@@ -57,14 +57,27 @@ sr.reveal('.hideme', {origin:'bottom', delay: 300})
 sr.reveal('.cd-btn', {delay: 500})
 sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('#img', {origin:'left', delay: 400})
-sr.reveal('.endline', {delay: 500, interval: 100})
 
-/*SCROLL CONTACT*/
-sr.reveal('.contact__subtitle', {})
-sr.reveal('.contact__text', {interval: 200})
+/*SCROLL TIMELINE*/
+
+sr.reveal('#timeline-header-1', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-1', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-header-2', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-2', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-header-3', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-3', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-header-4', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-4', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-header-5', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-5', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-header-6', {origin:'bottom', delay: 300})
+sr.reveal('#timeline-content-6', {origin:'bottom', delay: 300})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+
+
+sr.reveal('.endline', {delay: 500, interval: 100})
 
 
 
