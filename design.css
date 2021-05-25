@@ -55,7 +55,10 @@ position:relative;
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /*-----------text-animation----------*/
