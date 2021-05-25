@@ -76,14 +76,20 @@ sr.reveal('#timeline-header-5', {origin:'bottom', delay: 300})
 sr.reveal('#timeline-content-5', {origin:'bottom', delay: 300})
 sr.reveal('#timeline-header-6', {origin:'bottom', delay: 300})
 sr.reveal('#timeline-content-6', {origin:'bottom', delay: 300})
-
-sr.reveal('.contact__button', {delay: 600})
-
-
-
 sr.reveal('.endline', {delay: 500, interval: 100})
 
 sr.reveal('.aboutimg', {origin:'bottom', delay: 300})
-
 sr.reveal('.aboutcontent', {origin:'bottom', delay: 500})
 sr.reveal('.aboutcontent2', {origin:'bottom', delay: 600})
+
+
+sr.reveal('#q1', {origin:'bottom', delay: 300})
+sr.reveal('#q2', {origin:'bottom', delay: 400})
+sr.reveal('#q3', {origin:'bottom', delay: 500})
+sr.reveal('#q4', {origin:'bottom', delay: 600})
+sr.reveal('#q5', {origin:'bottom', delay: 700})
+sr.reveal('#q6', {origin:'bottom', delay: 800})
+
+sr.reveal('.l1', {origin:'bottom', delay: 300})
+sr.reveal('.l2', {origin:'bottom', delay: 400})
+sr.reveal('.l3', {origin:'bottom', delay: 500})
