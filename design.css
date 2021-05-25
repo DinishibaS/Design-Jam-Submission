@@ -487,14 +487,24 @@ animation:wave 5s linear infinite;
 }
 
 
-.link-section a ,.copyright-section p{
+.link-section a {
     color:white;
 	text-transform:capitalize;
 	font-size:20px;
 	display:inline-block;
 	font-weight:600;
 	 writing-mode: vertical-rl;
-    text-decoration:underline;
+    
+}
+
+.copyright-section p{
+  color:white;
+text-transform:capitalize;
+font-size:20px;
+display:inline-block;
+font-weight:600;
+ writing-mode: vertical-rl;
+  text-decoration:underline;
 }
 .copyright-section p{
   font-size:15px;
@@ -621,7 +631,7 @@ animation:wave 5s linear infinite;
 	font-weight:600;
     font-size: 30px;
     color: #fff;
-    text-decoration: underline;
+    
 }
 
 #resume {
