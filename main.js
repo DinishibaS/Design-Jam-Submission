@@ -49,9 +49,9 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.Intro', {origin:'bottom', delay: 100, interval: 100})
-sr.reveal('#introtext-1', {origin:'bottom', delay: 400, interval: 100})
-sr.reveal('#introtext-2', {origin:'bottom', delay: 400, interval: 100})
+sr.reveal('.Intro', {origin:'bottom', delay: 100, interval: 500})
+sr.reveal('#introtext-1', {origin:'bottom', delay: 400})
+sr.reveal('#introtext-2', {origin:'bottom', delay: 400})
 sr.reveal('#introtext-3', {origin:'bottom', delay: 400})
 sr.reveal('#introimg', {origin:'bottom', delay: 400})
 sr.reveal('.home__img', {origin:'bottom', delay: 300})
