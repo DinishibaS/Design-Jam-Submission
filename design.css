@@ -554,7 +554,10 @@ font-weight:600;
   }
 }
   
-  
+.special{
+  font-size: 2.6rem;
+  font-weight: 700;
+}
   
   
   .overlay {
