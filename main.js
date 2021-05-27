@@ -93,3 +93,7 @@ sr.reveal('#q6', {origin:'bottom', delay: 800})
 sr.reveal('.l1', {origin:'bottom', delay: 300})
 sr.reveal('.l2', {origin:'bottom', delay: 400})
 sr.reveal('.l3', {origin:'bottom', delay: 500})
+
+sr.reveal('.a1', {origin:'bottom', delay: 300})
+sr.reveal('.a2', {origin:'bottom', delay: 700})
+sr.reveal('.a3', {origin:'bottom', delay: 800})
